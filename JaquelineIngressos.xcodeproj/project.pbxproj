@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00ABCAE796D6D5E0E7F3350E /* Pods_JaquelineIngressos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933462BF4B7CA04DF17ABA38 /* Pods_JaquelineIngressos.framework */; };
 		7B50507F28E3B32800178480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50507E28E3B32800178480 /* AppDelegate.swift */; };
 		7B50508128E3B32800178480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50508028E3B32800178480 /* SceneDelegate.swift */; };
-		7B50508328E3B32800178480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50508228E3B32800178480 /* ViewController.swift */; };
-		7B50508628E3B32800178480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50508428E3B32800178480 /* Main.storyboard */; };
 		7B50508828E3B32900178480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50508728E3B32900178480 /* Assets.xcassets */; };
 		7B50508B28E3B32900178480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50508928E3B32900178480 /* LaunchScreen.storyboard */; };
+		7B50509428E3B3ED00178480 /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50509328E3B3ED00178480 /* ValidaFormulario.swift */; };
+		7B50509728E3B3F200178480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50509628E3B3F200178480 /* ViewController.swift */; };
+		7B50509C28E3B95B00178480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50509B28E3B95B00178480 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F2B9F645B39A27B86D868E3 /* Pods-JaquelineIngressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaquelineIngressos.release.xcconfig"; path = "Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos.release.xcconfig"; sourceTree = "<group>"; };
 		7B50507B28E3B32800178480 /* JaquelineIngressos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaquelineIngressos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B50507E28E3B32800178480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B50508028E3B32800178480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7B50508228E3B32800178480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B50508528E3B32800178480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B50508728E3B32900178480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B50508A28E3B32900178480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B50508C28E3B32900178480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B50509328E3B3ED00178480 /* ValidaFormulario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
+		7B50509628E3B3F200178480 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B50509B28E3B95B00178480 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		933462BF4B7CA04DF17ABA38 /* Pods_JaquelineIngressos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaquelineIngressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F752972FBB7144F30E96CF70 /* Pods-JaquelineIngressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaquelineIngressos.debug.xcconfig"; path = "Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ABCAE796D6D5E0E7F3350E /* Pods_JaquelineIngressos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45E720D0B12A4CC62AB4AB0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				933462BF4B7CA04DF17ABA38 /* Pods_JaquelineIngressos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B50507228E3B32800178480 = {
 			isa = PBXGroup;
 			children = (
 				7B50507D28E3B32800178480 /* JaquelineIngressos */,
 				7B50507C28E3B32800178480 /* Products */,
+				EA8FA6430D530290D5D03336 /* Pods */,
+				45E720D0B12A4CC62AB4AB0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,41 @@
 		7B50507D28E3B32800178480 /* JaquelineIngressos */ = {
 			isa = PBXGroup;
 			children = (
+				7B50509528E3B3F200178480 /* Controller */,
+				7B50509228E3B3ED00178480 /* Model */,
 				7B50507E28E3B32800178480 /* AppDelegate.swift */,
 				7B50508028E3B32800178480 /* SceneDelegate.swift */,
-				7B50508228E3B32800178480 /* ViewController.swift */,
-				7B50508428E3B32800178480 /* Main.storyboard */,
 				7B50508728E3B32900178480 /* Assets.xcassets */,
+				7B50509B28E3B95B00178480 /* Main.storyboard */,
 				7B50508928E3B32900178480 /* LaunchScreen.storyboard */,
 				7B50508C28E3B32900178480 /* Info.plist */,
 			);
 			path = JaquelineIngressos;
+			sourceTree = "<group>";
+		};
+		7B50509228E3B3ED00178480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B50509328E3B3ED00178480 /* ValidaFormulario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B50509528E3B3F200178480 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B50509628E3B3F200178480 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA8FA6430D530290D5D03336 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F752972FBB7144F30E96CF70 /* Pods-JaquelineIngressos.debug.xcconfig */,
+				5F2B9F645B39A27B86D868E3 /* Pods-JaquelineIngressos.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B50508F28E3B32900178480 /* Build configuration list for PBXNativeTarget "JaquelineIngressos" */;
 			buildPhases = (
+				5473180AC4CD3F5AD4F0097A /* [CP] Check Pods Manifest.lock */,
 				7B50507728E3B32800178480 /* Sources */,
 				7B50507828E3B32800178480 /* Frameworks */,
 				7B50507928E3B32800178480 /* Resources */,
+				0F96022F768B9DF2B4E194EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +170,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B50509C28E3B95B00178480 /* Main.storyboard in Resources */,
 				7B50508B28E3B32900178480 /* LaunchScreen.storyboard in Resources */,
 				7B50508828E3B32900178480 /* Assets.xcassets in Resources */,
-				7B50508628E3B32800178480 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F96022F768B9DF2B4E194EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5473180AC4CD3F5AD4F0097A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JaquelineIngressos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B50507728E3B32800178480 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B50508328E3B32800178480 /* ViewController.swift in Sources */,
+				7B50509728E3B3F200178480 /* ViewController.swift in Sources */,
 				7B50507F28E3B32800178480 /* AppDelegate.swift in Sources */,
+				7B50509428E3B3ED00178480 /* ValidaFormulario.swift in Sources */,
 				7B50508128E3B32800178480 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B50508428E3B32800178480 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B50508528E3B32800178480 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B50508928E3B32900178480 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +362,7 @@
 		};
 		7B50509028E3B32900178480 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F752972FBB7144F30E96CF70 /* Pods-JaquelineIngressos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		7B50509128E3B32900178480 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2B9F645B39A27B86D868E3 /* Pods-JaquelineIngressos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

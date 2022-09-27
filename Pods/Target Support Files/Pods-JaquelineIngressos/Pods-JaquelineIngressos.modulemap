@@ -1,0 +1,6 @@
+framework module Pods_JaquelineIngressos {
+  umbrella header "Pods-JaquelineIngressos-umbrella.h"
+
+  export *
+  module * { export * }
+}
