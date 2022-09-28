@@ -7,6 +7,7 @@
 
 import UIKit
 import CPF_CNPJ_Validator
+
 class ViewController: UIViewController {
     
     // MARK: Outlets
@@ -17,9 +18,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.imagemBanner.layer.cornerRadius = 10
-        self.imagemBanner.layer.masksToBounds = true
-        
+//        self.imagemBanner.layer.cornerRadius = 10
+//        self.imagemBanner.layer.masksToBounds = true
     }
     
     override func didReceiveMemoryWarning() {
