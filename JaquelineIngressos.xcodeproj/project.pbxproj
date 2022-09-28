@@ -73,9 +73,9 @@
 		7B50507D28E3B32800178480 /* JaquelineIngressos */ = {
 			isa = PBXGroup;
 			children = (
-				7B50509528E3B3F200178480 /* Controller */,
-				7B50509228E3B3ED00178480 /* Model */,
 				7B50507E28E3B32800178480 /* AppDelegate.swift */,
+				7B50509228E3B3ED00178480 /* Model */,
+				7B50509528E3B3F200178480 /* Controller */,
 				7B50508028E3B32800178480 /* SceneDelegate.swift */,
 				7B50508728E3B32900178480 /* Assets.xcassets */,
 				7B50509B28E3B95B00178480 /* Main.storyboard */,
