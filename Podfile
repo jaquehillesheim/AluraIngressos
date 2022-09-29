@@ -7,4 +7,6 @@ target 'JaquelineIngressos' do
 
   # Pods for JaquelineIngressos
 pod 'CPF-CNPJ-Validator', '~> 1.0'
+pod 'Alamofire', '~> 4.5'
+pod 'CreditCardValidator', '~> 0.4'
 end

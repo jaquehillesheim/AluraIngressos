@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00ABCAE796D6D5E0E7F3350E /* Pods_JaquelineIngressos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933462BF4B7CA04DF17ABA38 /* Pods_JaquelineIngressos.framework */; };
+		7B01EF2728E62906005050C3 /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B01EF2628E62906005050C3 /* Localizacao.swift */; };
+		7B01EF2928E6297A005050C3 /* LocalizacaoConsultaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B01EF2828E6297A005050C3 /* LocalizacaoConsultaAPI.swift */; };
 		7B50507F28E3B32800178480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50507E28E3B32800178480 /* AppDelegate.swift */; };
 		7B50508128E3B32800178480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50508028E3B32800178480 /* SceneDelegate.swift */; };
 		7B50508828E3B32900178480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B50508728E3B32900178480 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		5F2B9F645B39A27B86D868E3 /* Pods-JaquelineIngressos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaquelineIngressos.release.xcconfig"; path = "Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos.release.xcconfig"; sourceTree = "<group>"; };
+		7B01EF2628E62906005050C3 /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		7B01EF2828E6297A005050C3 /* LocalizacaoConsultaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoConsultaAPI.swift; sourceTree = "<group>"; };
 		7B50507B28E3B32800178480 /* JaquelineIngressos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaquelineIngressos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B50507E28E3B32800178480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B50508028E3B32800178480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				7B50509328E3B3ED00178480 /* ValidaFormulario.swift */,
+				7B01EF2628E62906005050C3 /* Localizacao.swift */,
+				7B01EF2828E6297A005050C3 /* LocalizacaoConsultaAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -229,6 +235,8 @@
 				7B50507F28E3B32800178480 /* AppDelegate.swift in Sources */,
 				7B50509428E3B3ED00178480 /* ValidaFormulario.swift in Sources */,
 				7B50508128E3B32800178480 /* SceneDelegate.swift in Sources */,
+				7B01EF2928E6297A005050C3 /* LocalizacaoConsultaAPI.swift in Sources */,
+				7B01EF2728E62906005050C3 /* Localizacao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

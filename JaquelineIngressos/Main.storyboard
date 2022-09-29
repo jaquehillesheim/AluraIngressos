@@ -146,6 +146,9 @@
                                                 <rect key="frame" x="0.0" y="266.66666666666663" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="textFieldCepAlterouValor:" destination="BYZ-38-t0r" eventType="editingChanged" id="suJ-QT-3So"/>
+                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="757" text="Endereço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlY-fV-2ft">
                                                 <rect key="frame" x="0.0" y="300.66666666666663" width="343" height="20.666666666666686"/>
@@ -153,7 +156,7 @@
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQ9-UH-lFM">
+                                            <textField opaque="NO" tag="5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQ9-UH-lFM">
                                                 <rect key="frame" x="0.0" y="321.33333333333337" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -164,7 +167,7 @@
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" tag="6" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jA-OP-dnp">
+                                            <textField opaque="NO" tag="6" contentMode="scaleToFill" verticalCompressionResistancePriority="753" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jA-OP-dnp">
                                                 <rect key="frame" x="0.0" y="376" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -446,17 +449,16 @@
                     <size key="freeformSize" width="375" height="1064"/>
                     <connections>
                         <outlet property="imagemBanner" destination="bxh-ub-bfp" id="ffh-yD-5bA"/>
-                        <outletCollection property="textFieds" destination="zX9-es-IBK" collectionClass="NSMutableArray" id="Abu-ig-rdk"/>
-                        <outletCollection property="textFieds" destination="jSI-vE-sEA" collectionClass="NSMutableArray" id="CTh-Mm-LKd"/>
-                        <outletCollection property="textFieds" destination="Ekh-eN-kbg" collectionClass="NSMutableArray" id="vIc-I2-53t"/>
-                        <outletCollection property="textFieds" destination="DMK-Tg-Uqk" collectionClass="NSMutableArray" id="49t-eF-uDP"/>
-                        <outletCollection property="textFieds" destination="EQ9-UH-lFM" collectionClass="NSMutableArray" id="6Of-nl-Y2x"/>
-                        <outletCollection property="textFieds" destination="9jA-OP-dnp" collectionClass="NSMutableArray" id="qCF-rc-tsd"/>
-                        <outletCollection property="textFieds" destination="K7h-bi-aBR" collectionClass="NSMutableArray" id="iOC-4P-fUA"/>
-                        <outletCollection property="textFieds" destination="aCI-8e-7kz" collectionClass="NSMutableArray" id="DmJ-6D-hd2"/>
-                        <outletCollection property="textFieds" destination="CnS-G8-AaU" collectionClass="NSMutableArray" id="BcL-dh-895"/>
-                        <outletCollection property="textFieds" destination="39J-3H-vmB" collectionClass="NSMutableArray" id="xLw-Nl-tRu"/>
-                        <outletCollection property="textFieds" destination="9n2-BJ-whk" collectionClass="NSMutableArray" id="Mw0-wU-9ix"/>
+                        <outletCollection property="textFields" destination="jSI-vE-sEA" collectionClass="NSMutableArray" id="FSW-Y6-LIP"/>
+                        <outletCollection property="textFields" destination="Ekh-eN-kbg" collectionClass="NSMutableArray" id="QLG-4z-dHv"/>
+                        <outletCollection property="textFields" destination="EQ9-UH-lFM" collectionClass="NSMutableArray" id="jWZ-VP-GYw"/>
+                        <outletCollection property="textFields" destination="9jA-OP-dnp" collectionClass="NSMutableArray" id="yXC-17-mE6"/>
+                        <outletCollection property="textFields" destination="K7h-bi-aBR" collectionClass="NSMutableArray" id="RDj-Xd-Ure"/>
+                        <outletCollection property="textFields" destination="aCI-8e-7kz" collectionClass="NSMutableArray" id="5PU-mi-efF"/>
+                        <outletCollection property="textFields" destination="CnS-G8-AaU" collectionClass="NSMutableArray" id="pzF-de-Abe"/>
+                        <outletCollection property="textFields" destination="39J-3H-vmB" collectionClass="NSMutableArray" id="yid-G0-EDw"/>
+                        <outletCollection property="textFields" destination="9n2-BJ-whk" collectionClass="NSMutableArray" id="fYQ-hh-QLX"/>
+                        <outletCollection property="textFields" destination="zX9-es-IBK" collectionClass="NSMutableArray" id="k4B-tW-qio"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
