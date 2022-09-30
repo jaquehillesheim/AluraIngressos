@@ -17,6 +17,9 @@
 		7B50509428E3B3ED00178480 /* ValidaFormulario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50509328E3B3ED00178480 /* ValidaFormulario.swift */; };
 		7B50509728E3B3F200178480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50509628E3B3F200178480 /* ViewController.swift */; };
 		7B50509C28E3B95B00178480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B50509B28E3B95B00178480 /* Main.storyboard */; };
+		7BFCC4D328E76148008B1729 /* PickerViewMes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCC4D228E76148008B1729 /* PickerViewMes.swift */; };
+		7BFCC4D528E76BD0008B1729 /* PickerViewAno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCC4D428E76BD0008B1729 /* PickerViewAno.swift */; };
+		7BFCC4D728E77A60008B1729 /* PickerViewParcela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCC4D628E77A60008B1729 /* PickerViewParcela.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		7B50509328E3B3ED00178480 /* ValidaFormulario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidaFormulario.swift; sourceTree = "<group>"; };
 		7B50509628E3B3F200178480 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B50509B28E3B95B00178480 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7BFCC4D228E76148008B1729 /* PickerViewMes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMes.swift; sourceTree = "<group>"; };
+		7BFCC4D428E76BD0008B1729 /* PickerViewAno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewAno.swift; sourceTree = "<group>"; };
+		7BFCC4D628E77A60008B1729 /* PickerViewParcela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewParcela.swift; sourceTree = "<group>"; };
 		933462BF4B7CA04DF17ABA38 /* Pods_JaquelineIngressos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaquelineIngressos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F752972FBB7144F30E96CF70 /* Pods-JaquelineIngressos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaquelineIngressos.debug.xcconfig"; path = "Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngressos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +108,20 @@
 		7B50509528E3B3F200178480 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7BFCC4D128E7611A008B1729 /* Componentes */,
 				7B50509628E3B3F200178480 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		7BFCC4D128E7611A008B1729 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				7BFCC4D228E76148008B1729 /* PickerViewMes.swift */,
+				7BFCC4D428E76BD0008B1729 /* PickerViewAno.swift */,
+				7BFCC4D628E77A60008B1729 /* PickerViewParcela.swift */,
+			);
+			path = Componentes;
 			sourceTree = "<group>";
 		};
 		EA8FA6430D530290D5D03336 /* Pods */ = {
@@ -235,6 +252,9 @@
 				7B50507F28E3B32800178480 /* AppDelegate.swift in Sources */,
 				7B50509428E3B3ED00178480 /* ValidaFormulario.swift in Sources */,
 				7B50508128E3B32800178480 /* SceneDelegate.swift in Sources */,
+				7BFCC4D328E76148008B1729 /* PickerViewMes.swift in Sources */,
+				7BFCC4D528E76BD0008B1729 /* PickerViewAno.swift in Sources */,
+				7BFCC4D728E77A60008B1729 /* PickerViewParcela.swift in Sources */,
 				7B01EF2928E6297A005050C3 /* LocalizacaoConsultaAPI.swift in Sources */,
 				7B01EF2728E62906005050C3 /* Localizacao.swift in Sources */,
 			);

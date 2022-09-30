@@ -9,4 +9,5 @@ target 'JaquelineIngressos' do
 pod 'CPF-CNPJ-Validator', '~> 1.0'
 pod 'Alamofire', '~> 4.5'
 pod 'CreditCardValidator', '~> 0.4'
+pod 'SwiftCurrency', '~> 0.6.0'
 end

@@ -109,41 +109,47 @@
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zX9-es-IBK">
-                                                <rect key="frame" x="0.0" y="102.66666666666669" width="343" height="34"/>
+                                            <textField opaque="NO" tag="1" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zX9-es-IBK">
+                                                <rect key="frame" x="0.0" y="102.6666666666667" width="343" height="143.33333333333337"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Sz-x3-sZw">
-                                                <rect key="frame" x="0.0" y="136.66666666666669" width="343" height="20.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
-                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="755" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-vE-sEA">
-                                                <rect key="frame" x="0.0" y="157.33333333333331" width="343" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="CPF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-WV-uoH">
-                                                <rect key="frame" x="0.0" y="191.33333333333331" width="343" height="20.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
-                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" tag="3" contentMode="scaleToFill" verticalCompressionResistancePriority="756" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-eN-kbg">
-                                                <rect key="frame" x="0.0" y="212" width="343" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-L6-qYv">
                                                 <rect key="frame" x="0.0" y="245.99999999999997" width="343" height="20.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-Tg-Uqk">
+                                            <textField opaque="NO" tag="2" contentMode="scaleToFill" verticalCompressionResistancePriority="755" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jSI-vE-sEA">
                                                 <rect key="frame" x="0.0" y="266.66666666666663" width="343" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="CPF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-WV-uoH">
+                                                <rect key="frame" x="0.0" y="300.66666666666663" width="343" height="20.666666666666686"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="3" contentMode="scaleToFill" verticalCompressionResistancePriority="756" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ekh-eN-kbg">
+                                                <rect key="frame" x="0.0" y="321.33333333333337" width="343" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-L6-qYv">
+                                                <rect key="frame" x="0.0" y="355.33333333333337" width="343" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="Bairro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cc8-a2-LM8">
+                                                <rect key="frame" x="0.0" y="355.33333333333337" width="343" height="20.666666666666686"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMK-Tg-Uqk">
+                                                <rect key="frame" x="0.0" y="376" width="343" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <connections>
@@ -151,22 +157,16 @@
                                                 </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="757" text="Endereço" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlY-fV-2ft">
-                                                <rect key="frame" x="0.0" y="300.66666666666663" width="343" height="20.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="376" width="343" height="0.0"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
                                                 <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" tag="5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EQ9-UH-lFM">
-                                                <rect key="frame" x="0.0" y="321.33333333333337" width="343" height="34"/>
+                                                <rect key="frame" x="0.0" y="376" width="343" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="755" text="Bairro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cc8-a2-LM8">
-                                                <rect key="frame" x="0.0" y="355.33333333333337" width="343" height="20.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
-                                                <color key="textColor" red="0.22352941179999999" green="0.24313725489999999" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <textField opaque="NO" tag="6" contentMode="scaleToFill" verticalCompressionResistancePriority="753" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9jA-OP-dnp">
                                                 <rect key="frame" x="0.0" y="376" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -216,11 +216,17 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="85.666666666666671" height="34"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
+                                                                        <connections>
+                                                                            <action selector="texFieldMesEntrouEmFoco:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="NnE-Ye-u6P"/>
+                                                                        </connections>
                                                                     </textField>
                                                                     <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="AA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CnS-G8-AaU">
                                                                         <rect key="frame" x="85.666666666666686" y="0.0" width="86" height="34"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                         <textInputTraits key="textInputTraits"/>
+                                                                        <connections>
+                                                                            <action selector="textFieldAnoEntrouEmFoco:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="rHz-e0-4AA"/>
+                                                                        </connections>
                                                                     </textField>
                                                                 </subviews>
                                                                 <constraints>
@@ -250,7 +256,10 @@
                                                             <textField opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3 Dígitos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="39J-3H-vmB">
                                                                 <rect key="frame" x="0.0" y="34" width="171.33333333333334" height="34"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                                <connections>
+                                                                    <action selector="TextFielCodigoDeSeguranca:" destination="BYZ-38-t0r" eventType="editingChanged" id="gS5-rO-slo"/>
+                                                                </connections>
                                                             </textField>
                                                         </subviews>
                                                         <constraints>
@@ -270,10 +279,13 @@
                                                     <constraint firstItem="MHs-nA-IG7" firstAttribute="leading" secondItem="73D-sN-s5k" secondAttribute="leadingMargin" id="Gw8-m6-XGC"/>
                                                 </constraints>
                                             </stackView>
-                                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="754" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número de parcelas" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9n2-BJ-whk">
+                                            <textField opaque="NO" tag="11" contentMode="scaleToFill" verticalCompressionResistancePriority="754" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número de parcelas" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9n2-BJ-whk">
                                                 <rect key="frame" x="0.0" y="581" width="343" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="textFieldParcelas:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="2i3-Hi-wg0"/>
+                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="3. Confirmação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4s3-kX-juL">
                                                 <rect key="frame" x="0.0" y="615" width="343" height="19"/>
@@ -323,7 +335,6 @@
                                         <constraints>
                                             <constraint firstItem="jSI-vE-sEA" firstAttribute="top" secondItem="zX9-es-IBK" secondAttribute="bottom" constant="20.670000000000002" id="1W5-hQ-Ecb"/>
                                             <constraint firstItem="73D-sN-s5k" firstAttribute="trailing" secondItem="hqz-Vg-D02" secondAttribute="trailingMargin" id="2Ij-nu-an7"/>
-                                            <constraint firstItem="Cc8-a2-LM8" firstAttribute="top" secondItem="QlY-fV-2ft" secondAttribute="bottom" constant="34" id="41C-Du-wSh"/>
                                             <constraint firstItem="g67-O8-isS" firstAttribute="top" secondItem="pCT-Bi-IxV" secondAttribute="bottom" id="4Bz-VA-osS"/>
                                             <constraint firstItem="K7h-bi-aBR" firstAttribute="top" secondItem="hu7-fV-o6T" secondAttribute="bottom" id="50Z-S5-LBk"/>
                                             <constraint firstItem="xwQ-OD-7Bv" firstAttribute="trailing" secondItem="hqz-Vg-D02" secondAttribute="trailingMargin" id="5sF-GZ-dHq"/>
@@ -387,7 +398,6 @@
                                             <constraint firstItem="FX9-I8-Avs" firstAttribute="leading" secondItem="hqz-Vg-D02" secondAttribute="leadingMargin" id="jov-lz-v9y"/>
                                             <constraint firstItem="6x3-Yh-cRe" firstAttribute="leading" secondItem="hqz-Vg-D02" secondAttribute="leadingMargin" id="k8d-Eo-1El"/>
                                             <constraint firstItem="Ewg-hj-BlE" firstAttribute="top" secondItem="9jA-OP-dnp" secondAttribute="bottom" id="kfw-SQ-iUu"/>
-                                            <constraint firstItem="QlY-fV-2ft" firstAttribute="top" secondItem="Ir7-L6-qYv" secondAttribute="bottom" constant="34" id="lZt-zY-HcS"/>
                                             <constraint firstItem="6x3-Yh-cRe" firstAttribute="trailing" secondItem="hqz-Vg-D02" secondAttribute="trailingMargin" id="lcD-N3-2VE"/>
                                             <constraint firstItem="f3a-WV-uoH" firstAttribute="top" secondItem="jSI-vE-sEA" secondAttribute="bottom" id="n96-cw-PeO"/>
                                             <constraint firstAttribute="trailing" secondItem="R1l-NV-Xao" secondAttribute="trailing" id="n9k-hC-rlW"/>
@@ -449,6 +459,8 @@
                     <size key="freeformSize" width="375" height="1064"/>
                     <connections>
                         <outlet property="imagemBanner" destination="bxh-ub-bfp" id="ffh-yD-5bA"/>
+                        <outlet property="labelValorDasParcelas" destination="rSH-vA-a3O" id="IAX-XJ-3Ne"/>
+                        <outlet property="scrollViewPrincipal" destination="x50-l8-Www" id="tQl-xv-tZW"/>
                         <outletCollection property="textFields" destination="jSI-vE-sEA" collectionClass="NSMutableArray" id="FSW-Y6-LIP"/>
                         <outletCollection property="textFields" destination="Ekh-eN-kbg" collectionClass="NSMutableArray" id="QLG-4z-dHv"/>
                         <outletCollection property="textFields" destination="EQ9-UH-lFM" collectionClass="NSMutableArray" id="jWZ-VP-GYw"/>

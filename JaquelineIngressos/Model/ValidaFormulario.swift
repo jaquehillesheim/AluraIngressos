@@ -21,6 +21,7 @@ enum TiposDeTextField: Int {
     case mesDeVencimento = 8
     case anoDeVencimento = 9
     case codigoDeSeguranca = 10
+    case parcela = 11
     
 }
 

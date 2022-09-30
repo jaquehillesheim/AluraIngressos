@@ -2,3 +2,4 @@ ${PODS_ROOT}/Target Support Files/Pods-JaquelineIngressos/Pods-JaquelineIngresso
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework
 ${BUILT_PRODUCTS_DIR}/CreditCardValidator/CreditCardValidator.framework
+${BUILT_PRODUCTS_DIR}/SwiftCurrency/SwiftCurrency.framework
