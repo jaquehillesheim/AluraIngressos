@@ -95,6 +95,7 @@ class ViewController: UIViewController, PickerViemMesSelecionado, PickerViewAnoS
     }
     
     // Requisicao do cep e validado os campor do bairro e endereco
+    
     @IBAction func textFieldCepAlterouValor(_ sender: UITextField) {
         guard let cep = sender.text else { return }
         LocalizacaoConsultaAPI().consultaViaCepAPI(cep: cep, sucesso: { (Localizacao) in
